@@ -1,0 +1,208 @@
+* {
+padding: 0px;
+margin: 0px;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+header {
+  border: solid;
+  background-color: rgb(29, 29, 29);
+  height: 30%;
+}
+
+.huh {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-family: 'American Typewriter', sans-serif;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image {
+  border: none 2px white;
+  background-image: url("photo.png");
+  background-repeat: no-repeat;
+  background-position:"center";
+  background-size: cover;
+  height: 760px;
+  overflow: hidden;
+}
+
+.green {
+  border: none 2px white;
+  background-image: url("green.png");
+  background-repeat: no-repeat;
+  background-position:"center";
+  background-size: cover;
+  height: 821px;
+  overflow: hidden;
+}
+.blue {
+  border: none 2px white;
+  background-image: url("blue.png");
+  background-repeat: no-repeat;
+  background-position:"center";
+  background-size: cover;
+  height: 821px;
+  overflow: hidden;
+}
+
+.text {
+  font-family: 'American Typewriter', sans-serif;
+  position: relative;
+  font-size: 18px;
+  left: 60px;
+  top: 45px;
+  width: 300px;
+}
+.texttwo {
+  font-family: 'American Typewriter', sans-serif;
+  font-size: 17px;
+  position: relative;
+  top: 60px;
+  left: 70px;
+  width: 700px
+}
+
+.icons {
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+footer {
+  background-color: rgb(29, 29, 29);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center
+}
+
+ul { 
+  list style: none;
+}
+ul li a { 
+  color: white;
+}
+a:hover {
+  color: #D4F5F8;
+}
+
+.sidebar {
+ position: fixed;
+ left: -250px;
+ width: 250px;
+ height: 100%;
+ background: #020202;
+ transition: all .5s ease;
+}
+.sidebar header {
+ font-size: 22px;
+ font-family: 'American Typewriter', sans-serif;
+ color: white;
+ line-height: 70px;
+ text-align: center;
+ background: #111111;
+ user-select: none;
+}
+.sidebar ul a{
+ display: block;
+ height: 100%;
+ width: 100%;
+ line-height: 65px;
+ font-size: 20px;
+ font-family: 'American Typewriter', sans-serif;
+ color: white;
+ padding-left: 40px;
+ box-sizing: border-box;
+ border-bottom: 1px solid black;
+ border-top: 1px solid rgba(255,255,255,.1);
+ transition: .4s;
+}
+.bar ul li:hover a{
+ padding-left: 50px;
+}
+ 
+.bar .sidebar ul a i{
+ margin-right: 16px;
+}
+ 
+#check{
+ display: none;
+}
+ 
+label #btn,label #cancel{
+ position: absolute;
+ background: #ffffff;
+ border-radius: 3px;
+ cursor: pointer;
+}
+ 
+label #btn{
+ left: 40px;
+ top: 25px;
+ font-size: 35px;
+ color: white;
+ padding: 6px 12px;
+ transition: all .5s;
+}
+ 
+label #cancel{
+ z-index: 1111;
+ left: -195px;
+ top: 17px;
+ font-size: 30px;
+ color: #0a5275;
+ padding: 4px 9px;
+ transition: all .5s ease;
+}
+ 
+#check:checked ~ .sidebar{
+ left: 0;
+}
+ 
+#check:checked ~ label #btn{
+ left: 250px;
+ opacity: 0;
+ pointer-events: none;
+}
+ 
+#check:checked ~ label #cancel{
+ left: 195px;
+}
+ 
+#check:checked ~ section{
+ margin-left: 250px;
+}
+ 
+section{
+ background: url(bg.jpeg) no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ transition: all .5s;
+}
+ 
+.template {
+  font-family: 'American Typewriter', sans-serif;
+  font-size: 15px;
+  position: absolute;
+  padding: 80px ;
+  left: 250px;
+  right: 500px;
+}
+
+.img img{
+  height: 290px;
+  position: absolute;
+  padding: 30px;
+  left: 900px;
+  border-radius: 90px;
+}
