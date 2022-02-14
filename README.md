@@ -4,3 +4,4 @@ This was the first website created by me, a portfolio website, featuring an Inde
 
 ![alt text](https://github.com/kpyvovar/Skills-Academy-Module-1/blob/main/Index.png?raw=true)
 ![alt text](https://user-images.githubusercontent.com/98356908/153952455-58322dcb-a633-4e59-9b91-a052796a729e.png)
+![alt text](https://github.com/kpyvovar/Skills-Academy-Module-1/blob/main/Game%20Des%20Page.png?raw=true)
